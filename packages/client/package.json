@@ -18,7 +18,7 @@
     "dist"
   ],
   "dependencies": {
-    "@wundergraph/sdk": "^0.148.0",
+    "@wundergraph/sdk": "^0.149.1",
     "zod": "^3.21.4"
   }
 }
