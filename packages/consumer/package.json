@@ -1,0 +1,7 @@
+{
+  "name": "@my-org/consumer",
+  "private": true,
+  "dependencies": {
+    "@my-org/client": "workspace:*"
+  }
+}
