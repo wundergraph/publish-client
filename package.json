@@ -5,8 +5,9 @@
   "scripts": {
     "start": "pnpm run --filter gateway dev",
     "generate": "pnpm run --filter gateway generate",
-    "build": "pnpm generate && pnpm build:client",
+    "build": "WG_PUBLIC_NODE_URL=https://api.my.org pnpm generate && pnpm build:client",
     "build:client": "pnpm run --filter @my-org/client build",
+    "publish:client": "pnpm run --filter @my-org/client publish",
     "check": "tsc --noEmit",
     "test": "jest"
   },
