@@ -12,8 +12,7 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
-    "types": ["node", "zod"]
+    "types": ["zod"]
   },
   "include": ["../../gateway/.wundergraph/**/*.ts"]
 }
